@@ -5,7 +5,7 @@ const postSchema = new Schema({
     Location:String,
     likes:{type:Number},
     Description: String,
-    files: String,
+    image: String,
     date: {type:Date,default:Date.now()}
     }
     )
