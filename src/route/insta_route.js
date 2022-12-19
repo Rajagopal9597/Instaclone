@@ -23,9 +23,9 @@ router.post("/posts", async (req, res) => {
     try {
         cloudinary.uploader.upload(req.files.image.tempFilePath, async (err, result) => {
             await Posts.create({
-                author: req.body.author,
-                location: req.body.location,
-                description: req.body.description,
+                name: req.body.name,
+                Location: req.body.Location,
+                Description: req.body.Description,
                 image: result.url,
                 date: req.body.date
             });
