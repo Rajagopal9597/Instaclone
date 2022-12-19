@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.landpage-container {
+    font-family: sans-serif;
+    background: url("../components/images/rugbybg.jpg") no-repeat center center/cover;
+    width:100%;
+    height:100vh;
+  }
+  .landpage-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn-container{
+    width:200px;
+    height:50px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    font-size: xx-large;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+  }
+.btn-container:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+  .brand-name{
+    font-size: xx-large;
+    color:rgb(237, 241, 14);
+  }

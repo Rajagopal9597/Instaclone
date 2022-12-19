@@ -1,0 +1,93 @@
+.form-container{
+    width: 500px;
+    margin:10px auto;
+    height: 250px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hidden-file{
+     z-index: -15;
+     color: white;
+     background-color: white;
+     visibility:hidden;
+     display: none;
+    }
+    .uploading-text{
+      color: green;
+    }
+  .btn-browse{
+    width:30%;
+    box-sizing: border-box;
+    border: 1px solid #707070;
+    cursor: pointer;
+  }
+  .label{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+  
+  }
+  .btn-browse >.hidden-file{
+    width: 100%;
+  }
+  .inside-form{
+    width: 80%;
+    height: 80%;
+    box-sizing: border-box;
+    padding-top: 6%;
+  }
+  .uploader-message{
+    height: 120px;
+    display: flex;
+    visibility: hidden;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .btn-post{
+    width:80px;
+    height: 30px;
+    color: white;
+    border: none;
+    background-color:#347DFD;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+  }
+  .desc-input{
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .file-component-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .file-component-container,.space-between-container,.desc-container
+  {
+    margin-bottom: 5%;
+  }
+  .dir-text{
+    width: 70%;
+  }
+  .space-between-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .space-between-children{
+    width: 30%;
+  }
+  
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
