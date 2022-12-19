@@ -1,10 +1,10 @@
 const mongoose = require('mongoose');
 const Schema =mongoose.Schema
 const postSchema = new Schema({
-    name:String,
-    Location:String,
+    author:String,
+    location:String,
     likes:{type:Number},
-    Description: String,
+    description: String,
     image: String,
     date: {type:Date,default:Date.now()}
     }
